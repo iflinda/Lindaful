@@ -2,23 +2,26 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(180deg, #F8DDC5, #E9DBCF, #D8D9DA, #CCD7E2);
-	background-size: 400% 400%;
+	background-size: 2000% 3000%;
 	animation: gradient 10s ease infinite;
-	height: 960vh;
+	height: 100vh;
 }
 
 @keyframes gradient {
 	0% {
 		background-position: 0% 30%;
 	}
-	20% {
+	10% {
 		background-position: 30% 60%;
 	}
-	40% {
+	20% {
 		background-position: 60% 90%;
 	}
-  50% {
+  40% {
 		background-position: 90% 100%;
+	}
+  50% {
+		background-position: 100% 100%;
 	}
   60% {
 		background-position: 100% 90%;
@@ -26,7 +29,10 @@ body {
   80% {
 		background-position: 90% 60%;
 	}
-  100% {
+  90% {
 		background-position: 60% 30%;
+	}
+  100% {
+		background-position: 30% 0%;
 	}
 }

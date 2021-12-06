@@ -1,0 +1,24 @@
+#footer {
+    position: absolute;
+    top: 965%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#footerBackground {
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    overflow: hidden
+}
+
+#thanks {
+    margin-top: 25rem;
+    margin-bottom: 0;
+}
+
+.copyright {
+    margin-top: 15rem;
+}

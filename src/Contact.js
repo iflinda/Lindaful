@@ -4,7 +4,6 @@ import { send } from 'emailjs-com';
 import './Contact.css';
 import './Global.css';
 import ContactBox from './images/ContactBox.svg';
-import Copyright from './images/Copyright.svg';
 import{ init } from 'emailjs-com';
 import Modal from 'react-modal';
 
@@ -72,7 +71,6 @@ function Contact() {
         <div id="contact">
             <h1>let's talk</h1>
             <img className="contactbox" src={ContactBox} alt=""/>
-            <img className="copyright" src={Copyright} alt="" />
             <div id="form">
                 <form id="contactForm" onSubmit={onSubmit}>
                     <p>Name</p>
