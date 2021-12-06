@@ -1,0 +1,74 @@
+#navigation {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95%;
+    top: 0;
+    z-index: 1;
+}
+
+#navigation a {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#navigation a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%238490A8' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+}
+
+#navigation a {
+    animation: change 10s ease infinite;
+}
+
+#navigation #menuResume {
+    background-image: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #E26E55;
+    background-color: #E2C894;
+    text-align: center;
+    border-radius: 10rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+#navigation #menuResume:hover {
+    background-color: #cad0dd;
+}
+
+@keyframes change {
+    0% {
+		color: #7E2915;
+	}
+    25% {
+        color: #5F3930;
+    }
+    50% {
+        color: #4F5888;
+    }
+    75% {
+		color: #23414D;
+	}
+    100% {
+        color: #5F3930;
+    }
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 15px 10px 0px #C4B9C7;
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+}

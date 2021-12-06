@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pattaya&family=Peddana&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Scrollbar Behavior */
+body::-webkit-scrollbar {
+    width: 1em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #FFFFFF;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: #E4B5B5;
+    outline: 1px solid #E4B5B5;
+}
+
+:focus {
+    outline-color: #E26E55;
+}
+
+h1 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    color: #59515C;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #5E4444;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+}
+
+p {
+    font-family: 'Peddana', serif;
+    color: #59515C;
+    font-size: 1.8rem;
+}
+
+a {
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+@keyframes change {
+    0% {
+		color: #7E2915;
+	}
+    25% {
+        color: #5F3930;
+    }
+    50% {
+        color: #4F5888;
+    }
+    75% {
+		color: #23414D;
+	}
+    100% {
+        color: #5F3930;
+    }
+}
+
+@keyframes movement {
+    from {
+     transform: skewX(20deg);
+    }
+    
+    to {
+     transform: skewX(-2-deg);
+    }
+}

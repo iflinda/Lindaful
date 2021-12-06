@@ -1,0 +1,52 @@
+#about {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#about p {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.handwritten, .role {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #5E4444;
+    text-decoration: underline dotted #FFFFFF;
+}
+
+#about a{
+    position: absolute;
+    margin-left: calc(50% - 144px);
+    margin-right: 50%;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #E26E55;
+    background-color: #E2C894;
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 10rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+#about a:hover {
+    background-color: #cad0dd;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 15px 10px 0px #C4B9C7;
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+}

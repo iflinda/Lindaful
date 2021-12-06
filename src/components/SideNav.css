@@ -1,0 +1,48 @@
+#sideNavigation  {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 107px);
+    z-index: 1;
+}
+
+#sideNavigation img {
+    width: 40px;
+    margin-bottom: 1rem;
+    border-radius: 25%;
+    overflow: hidden;
+	box-shadow: 0 5px 15px 0px #FAFAFF;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+#sideNavigation #gitHub {
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#sideNavigation img:hover {
+    animation: sway 2s infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 15px 10px 0px #C4B9C7;
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+		transform: translatey(0px);
+	}
+}
+
+@keyframes sway {
+    0% {transform: rotate(8deg);}
+    50% {transform: rotate(-5deg);}
+    100%{transform: rotate(8deg);}
+}
