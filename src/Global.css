@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pattaya&family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&family=Pattaya&family=Peddana&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -48,7 +48,7 @@ h2 {
 }
 
 p {
-    font-family: 'Peddana', serif;
+    font-family: 'Patrick Hand', cursive;
     color: #59515C;
     font-size: 1.8rem;
 }
