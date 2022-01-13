@@ -8,13 +8,12 @@ import Abyssal from './images/Abyssal.png';
 import AbyssalRedesign from './images/AbyssalRedesign.png';
 import VXP from './images/VXP.png';
 import Express from './images/Express.png';
-import Proposal from './images/Proposal.png';
 
 function Projects () {
     return (
         <div id="projects">
             <h1>my creations</h1>
-            <img className="background" src={ProjectsBackground} alt=""/>
+            <img className="background" src={ProjectsBackground} style={{width: "100%" }} alt=""/>
             <div>
                 <Project
                     className="project" 
@@ -29,10 +28,21 @@ function Projects () {
             <div>
                 <Project
                     className="project" 
+                    name="VXP Protothon" 
+                    screenshot={VXP}
+                    alt="Venture Experience Hackathon landing page with the tagline Western Canada's first Design-Focused Hackathon." 
+                    codeAddress="https://www.vxpdesign.ca/" 
+                    address="https://github.com/VentureXPerience/vxp-server"
+                    description="Venture Experience Protothon (VXP) is Western Canada’s first-ever design-focused Hackathon. Our mission is to host a celebration of design where participants can learn, compete, and network while building their portfolios and skills regardless of their experience."
+                    technologies={[ "HTML", "CSS", "React", "Node.js", "Next.js", "Tailwind CSS", "AWS Amplify" ]} />
+            </div>
+            <div>
+                <Project
+                    className="project" 
                     name="Abyssal Game" 
                     screenshot={Abyssal}
                     alt="Abyssal game screenshot with the protagonist exploring an underwater cavern." 
-                    codeAddress="https://github.com/jsam07/abyssal-website" 
+                    codeAddress="" 
                     address="https://abyssal-website.herokuapp.com/"
                     description="Abyssal is an underwater adventure set in the style of a Metroidvania game. The player controls Syba, an amnesiac villager of an ancient race. The player must explore the underwater caverns that build up a lost world to figure out the mystery of Syba's past."
                     technologies={[ "C#", "Unity", "WebGL" ]} />
@@ -51,17 +61,6 @@ function Projects () {
             <div>
                 <Project
                     className="project" 
-                    name="VXP Protothon" 
-                    screenshot={VXP}
-                    alt="Venture Experience Hackathon landing page with the tagline Western Canada's first Design-Focused Hackathon." 
-                    codeAddress="https://www.vxpdesign.ca/" 
-                    address="https://github.com/VentureXPerience/vxp-server"
-                    description="Venture Experience Protothon (VXP) is Western Canada’s first-ever design-focused Hackathon. Our mission is to host a celebration of design where participants can learn, compete, and network while building their portfolios and skills regardless of their experience."
-                    technologies={[ "HTML", "CSS", "React", "Node.js", "Next.js", "Tailwind CSS", "AWS Amplify" ]} />
-            </div>
-            <div>
-                <Project
-                    className="project" 
                     name="Express Documentation" 
                     screenshot={Express}
                     alt="Express.js Documentation landing page that has instructions on how to implement Express in your web application." 
@@ -69,17 +68,6 @@ function Projects () {
                     address="https://github.com/megankuo/Express-User-Documentation/"
                     description="This custom Express.js documentation will guide you through setting up a Node.js project for building small to medium-scale RESTful APIs using Express.js. The goal of this documentation is to provide you with enough information to build your first Express application."
                     technologies={[ "Markdown", "JavaScript" ]} />
-            </div>
-            <div>
-                <Project
-                    className="project" 
-                    name="Twilight Proposal" 
-                    screenshot={Proposal}
-                    alt="Inventive Design Studio Project Proposal cover for the Twilight Drive-in." 
-                    codeAddress="" 
-                    address="https://drive.google.com/file/d/1ndZSbQkq4UHSwW6j9MXlVmutjvl8x-uS/view"
-                    description="This business proposal focuses on improving the overall design of the Twilight Drive-in website. Additionally, the proposal goes into depth about the importance of the website working on mobile devices while improving the visual appeal to increase profit growth. "
-                    technologies={[ "" ]} />
             </div>
         </div>
         

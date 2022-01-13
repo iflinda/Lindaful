@@ -16,7 +16,7 @@ function About() {
       <span className="role">full stack developer&nbsp;</span>
       <br /> 
       living in Vancouver, BC in Canada.</p>
-      <a href="#home" className="button">résumé</a>
+      <a href="resume.pdf" target="_blank">résumé</a>
     </div>
   );
 }

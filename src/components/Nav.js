@@ -19,7 +19,7 @@ const Nav = () => {
           <a id='menuProject' className="menu" href="#contact">contact</a>
         </li>
         <li key="resume">
-          <a id="menuResume" className='menu' href="#hero">résumé</a>
+          <a id="menuResume" className='menu' href="resume.pdf" target="_blank">résumé</a>
         </li>
       </ul>
     </div>
