@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Lindaful Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌐 [Website Link](https://www.lindaful.com)
 
-## Available Scripts
+🎨 [Figma Link](https://www.figma.com/file/acSkG0gBZ23QGJplTB02T4/Lindaful-Mockup?node-id=0%3A1)
 
-In the project directory, you can run:
+**Lindaful** is a portfolio website that I created as a place to showcase the various projects that I've been working on during my journey as a Full-stack Web Developer. 
 
-### `npm start`
+I initially created low-fidelity wireframes for the website with traditional media before creating a high-fidelity prototype in Figma. I selected tranquil and relaxing colors while focusing on how to showcase my uniqueness. I wanted the website to embody my creative flair and personality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I hope you enjoy visiting the website, and have a **Lindaful** Day!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live Examples
 
-### `npm test`
+![Lindaful](https://user-images.githubusercontent.com/68607795/149754394-444e2899-9054-44da-ad5c-0771aae6471d.png)
+![About](https://user-images.githubusercontent.com/68607795/149754991-ffc3e793-552e-4433-911d-065b50d5f4de.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Languages
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Design
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Tools & Platforms
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Instructions 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1. Clone the Repository.
+```
+git clone https://github.com/iflinda/lindaful.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 2. Open the folder from the terminal.
+```
+cd lindaful
+```
 
-## Learn More
+### 3.  Install any dependencies.
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Build the production environment.
+```
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5. Build the production environment.
+```
+npm run build
+```
 
-### Code Splitting
+### 6. Run the application on a local server.
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 6. Open a web browser and type: 
+```
+http://localhost:3000/
+```
 
-### Analyzing the Bundle Size
+### 7. Enjoy! 🎉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Connect with Me
 
-### Making a Progressive Web App
+Feel free to connect with me, I'm always looking to meet new developers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📧 [informlinda@gmal.com](mailto:informlinda@gmail.com)
 
-### Advanced Configuration
+🌐 [Website](https://www.lindaful.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+💼 [LinkedIn](https://www.linkedin.com/in/iflinda)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💻 [Devpost](https://devpost.com/iflinda)
