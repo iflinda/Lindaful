@@ -1,13 +1,10 @@
 #about {
-    position: absolute;
-    top: 100%;
-    width: 100%;
+    padding-bottom: 20rem;
 }
 
 #about p {
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .handwritten, .role {
