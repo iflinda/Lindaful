@@ -1,0 +1,16 @@
+#hero {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/LogoBackground.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+
+}
+
+#logo {
+    width: 50%;
+    height: 100%;
+}
