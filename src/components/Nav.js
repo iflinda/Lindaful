@@ -22,7 +22,11 @@ const Nav = () => {
           </a>
         </li>
         <li key="contact">
-          <a id="menuProject" className="menu" href="#contact">
+          <a
+            id="menuProject"
+            className="menu"
+            href="mailto: informlinda@gmail.com"
+          >
             contact
           </a>
         </li>
