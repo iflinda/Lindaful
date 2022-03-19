@@ -4,7 +4,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div>
+    <div id="navigation-container">
       <ul id="navigation">
         <li key="hero">
           <a id="menuHero" className="menu" href="#hero">
@@ -23,7 +23,7 @@ const Nav = () => {
         </li>
         <li key="contact">
           <a
-            id="menuProject"
+            id="menuContact"
             className="menu"
             href="mailto: informlinda@gmail.com"
           >

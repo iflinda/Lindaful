@@ -1,9 +1,10 @@
 .project {
-    width: 600px;
+    width: 100vw;
     text-align: center;
 }
 
 .screenshots {
+    width: 100vw;
     border-radius: 3%;
 }
 
@@ -37,8 +38,8 @@
 
 .technologies {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 600px;
 }
 
 .technologies p {
@@ -86,4 +87,15 @@
     0% {transform: rotate(8deg);}
     50% {transform: rotate(-5deg);}
     100%{transform: rotate(8deg);}
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        width: 600px;
+    }
+    
+    .screenshots {
+        width: 100%;
+    }
+
 }

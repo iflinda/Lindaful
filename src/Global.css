@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 
 h1 {
     font-family: 'Pattaya', sans-serif;
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
     color: #59515C;
     animation-name: movement;
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     font-family: 'Pacifico', cursive;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #5E4444;
     text-decoration: underline;
@@ -50,13 +50,13 @@ h2 {
 p {
     font-family: 'Patrick Hand', cursive;
     color: #59515C;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 a {
     font-family: 'Pacifico', cursive;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -89,5 +89,19 @@ ul {
     
     to {
      transform: skewX(-2-deg);
+    }
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
     }
 }

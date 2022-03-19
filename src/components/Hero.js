@@ -9,7 +9,7 @@ function Hero() {
       <img
         id="logo"
         src={Logo}
-        alt="Lindaful Logo with the tagline that mentions that Linda is a Full Stack Developer that creates beautiful and accessible digital experiences."
+        alt="Lindaful Logo with the tagline Front End Developer"
       />
     </div>
   );

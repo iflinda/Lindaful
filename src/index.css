@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(180deg, #F8DDC5, #E9DBCF, #D8D9DA, #CCD7E2);
-	background-size: 2000% 3000%;
-	animation: gradient 20s ease-in-out infinite;
+  background-size: 2000% 3000%;
+  animation: gradient 20s ease-in-out infinite;
 }
 
 @keyframes gradient {
@@ -16,22 +16,22 @@ body {
 	20% {
 		background-position: 60% 90%;
 	}
-  40% {
+	40% {
 		background-position: 90% 100%;
 	}
-  50% {
+	50% {
 		background-position: 100% 100%;
 	}
-  60% {
+	60% {
 		background-position: 100% 90%;
 	}
-  80% {
+	80% {
 		background-position: 90% 60%;
 	}
-  90% {
+	90% {
 		background-position: 60% 30%;
 	}
-  100% {
+	100% {
 		background-position: 30% 0%;
 	}
 }

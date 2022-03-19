@@ -1,15 +1,17 @@
 #navigation {
     position: fixed;
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    top: 0;
+    justify-content: center;
+    width: 100vw;
     z-index: 1;
 }
 
 #navigation a {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    animation: change 10s ease infinite;
+
 }
 
 #navigation a:hover {
@@ -18,10 +20,6 @@
     background-size: auto 6px;
     background-repeat: repeat-x;
     text-decoration: none;
-}
-
-#navigation a {
-    animation: change 10s ease infinite;
 }
 
 #navigation #menuResume {
@@ -37,6 +35,10 @@
 
 #navigation #menuResume:hover {
     background-color: #cad0dd;
+}
+
+#menuResume {
+    visibility: hidden;
 }
 
 @keyframes change {
@@ -70,4 +72,22 @@
 		box-shadow: 0 5px 10px 0px #C4B9C7;
 		transform: translatey(0px);
 	}
+}
+
+@media only screen and (min-width: 700px) {
+  #navigation a {
+    font-size: 1.5rem;
+  }
+
+  #menuResume {
+      visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #navigation a {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+  }
 }
