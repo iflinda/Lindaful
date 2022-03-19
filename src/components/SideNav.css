@@ -5,6 +5,7 @@
     justify-content: center;
     height: calc(100vh - 107px);
     z-index: 1;
+    visibility: hidden;
 }
 
 #sideNavigation img {
@@ -45,6 +46,12 @@
     0% {transform: rotate(8deg);}
     50% {transform: rotate(-5deg);}
     100%{transform: rotate(8deg);}
+}
+
+@media screen and (min-width: 700px) {
+    #sideNavigation {
+        visibility: visible;
+    }
 }
 
 @media screen and (min-width: 1000px) {
